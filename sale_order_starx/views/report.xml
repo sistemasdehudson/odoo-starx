@@ -1,0 +1,27 @@
+<odoo>
+    <data>
+        <report id="report_custom"
+            string="Reporte Personalizado Starx"
+            model="sale.order"
+            report_type="qweb-pdf"
+            name="sale_order_starx.report_sale_order_starx"         
+        />
+
+        <template id="report_sale_order_starx">
+            <t t-call="report.html_container">
+		    <t t-call="report.external_layout">
+                    <div class="header">
+                        Mi Empresa / Logo
+                    </div>
+                    <div class="page">
+                        <h1>Esto es un Reporte</h1>
+                        <p>Personalizado, de Odoo</p>
+                    </div>
+                    <div class="footer">
+                        <small>Mi Footer</small>
+                    </div>
+		    </t>
+            </t>
+        </template>
+    </data>
+</odoo>
