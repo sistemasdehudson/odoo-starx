@@ -19,9 +19,9 @@
 				    <field name="inhert_id" ref="sale.pricelist_id" />
 			    </div> -->
 			   
-				    <p>Tarifa: $65</p>
+				<!--    <p>Tarifa: $65</p>
 				    <p t-field="sale.pricelist_id"> <p/>
-				    <p t-field="doc.pricelist_id.note"></p>
+				    <p t-field="doc.pricelist_id.note"></p> -->
 			    
 		    </t>
 		</t>
