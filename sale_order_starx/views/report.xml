@@ -16,6 +16,7 @@
 			   </field> -->
 			    <div>
 				    <p>Tarifa: $65</p>
+				    <field name="inhert_id" ref="sale.pricelist_id" />
 			    </div>
 		    </t>
 		</t>
