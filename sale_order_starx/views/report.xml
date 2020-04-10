@@ -1,13 +1,13 @@
 <odoo>
-    <data>
-        <report id="report_custom"
-            string="Reporte Personalizado Starx"
-            model="sale.order"
-            report_type="qweb-pdf"
-            name="sale_order_starx.report_sale_order_starx"         
+    <data> <!--Se configura el botón-->
+        <report id="report_starx" <!--nombre del modelo-->
+            string="Presupuesto / Pedido Starx" <!--Nombre que ve el usuario final-->
+            model="sale.order" <!--Modelo donde se va a configurar el reporte-->
+            report_type="qweb-pdf" <!--Tipo de reporte, se configura para exportar a PDF-->
+            name="sale_order_starx.report_starx_template" <!--Este es el nombre del template, se llama-->
         />
 
-        <template id="report_sale_order_starx">
+        <template id="report_starx_template"> <!--Nombre del template-->
             <t t-call="report.html_container">
 		    <t t-call="report.external_layout">
                     <div class="header">
