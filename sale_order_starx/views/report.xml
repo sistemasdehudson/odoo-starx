@@ -7,13 +7,11 @@
             name="sale_order_starx.report_starx_template"
         /> <!--FIn configuración de botón-->
 
-        <template id="report_starx_template" inherit_id="sale.report_saleorder"> <!--Nombre del template-->
-            
+        <template id="report_starx_template" inherit_id="sale.report_saleorder"> <!--Con 'inherit_id' heredamos el template base para poder imprimir los datos ingresados al presupuesto-->
 		<t t-call="web.html_container"> <!--Se le dice que esto es un reporte-->
 		    <t t-call="web.external_layout">
 		    </t>
-            	 </t>
-	
+		</t>
         </template>
     </data>
 </odoo>
