@@ -1,7 +1,7 @@
 <odoo>
     <data> <!--Se configura el botón-->
         <report id="report_starx" <!--nombre del modelo-->
-            string="Presupuesto / Pedido Starx" <!--Nombre que ve el usuario final-->
+            string="Presupuesto / Pedido Starx 1" <!--Nombre que ve el usuario final-->
             model="sale.order" <!--Modelo donde se va a configurar el reporte-->
             report_type="qweb-pdf" <!--Tipo de reporte, se configura para exportar a PDF-->
             name="sale_order_starx.report_starx_template" <!--Este es el nombre del template, se llama-->
