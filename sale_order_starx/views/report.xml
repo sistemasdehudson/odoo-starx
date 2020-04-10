@@ -14,9 +14,13 @@
 			<!--  <field name="pricelist_id" position="after">
     			      <field name="payment_term_id" />
 			   </field> -->
-			    <div>
+			  <!--  <div>
 				    <p>Tarifa: $65</p>
 				    <field name="inhert_id" ref="sale.pricelist_id" />
+			    </div> -->
+			    <div>
+				    <p>Tarifa: $65</p>
+				    <p t-field="pricelist_id"></p>
 			    </div>
 		    </t>
 		</t>
