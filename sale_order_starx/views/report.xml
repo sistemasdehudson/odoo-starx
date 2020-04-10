@@ -20,7 +20,7 @@
 			    </div> -->
 			    <div>
 				    <p>Tarifa: $65</p>
-				    <p t-field="pricelist_id"></p>
+				    <p t-field="sale.pricelist_id"></p>
 			    </div>
 		    </t>
 		</t>
