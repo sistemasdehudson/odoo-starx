@@ -21,6 +21,7 @@
 			    <div>
 				    <p>Tarifa: $65</p>
 				    <p t-field="sale.pricelist_id"></p>
+				    <p t-field="doc.pricelist_id.note"></p>
 			    </div>
 		    </t>
 		</t>
