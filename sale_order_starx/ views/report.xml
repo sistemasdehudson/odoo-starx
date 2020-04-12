@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ejemplo de comnetario -->
+<odoo>
+    <data> 
+        <report id="report_starx"
+            string="Presupuesto / Pedido Starx"
+            model="sale.order"
+            report_type="qweb-pdf"
+            name="sale_order_starx.report_starx_template"
+            file="sale_order_starx.report_starx_template"
+        />
+<!-- attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')" -->
+        <template id="report_starx_template">
+          <t t-call="web.html_container">
+              <t t-call="web.external_layout">   
+                <!-- Pagina 1 llamo al reporte -->
+                <div class="page">
+                <t t-foreach="docs" t-as="doc">
+                  <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
+                  <!-- Agrego el campo -->
+                  <p t-field="doc.pricelist_id.currency_id"/>
+                  <!-- FIN Agrego el campo -->
+                </t>
+                </div>
+    <!-- FIN pagina 1 -->          
+            </t>
+          </t>
+        </template>
+    </data>
+</odoo>
