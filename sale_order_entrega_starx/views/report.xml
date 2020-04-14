@@ -1,1 +1,28 @@
-
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ejemplo de comnetario -->
+<odoo>
+    <data> 
+        <report id="report_starx"
+            string="Vale de entrega Starx"
+            model="sale.order"
+            report_type="qweb-pdf"
+            name="sale_order_starx.report_starx_template"
+            file="sale_order_starx.report_starx_template"
+        />
+      
+        <template id="report_starx_template">
+          <t t-call="web.html_container">
+              <t t-call="web.external_layout">
+                
+                <!-- Pagina 1 llamo al reporte -->
+                <div class="page">
+                  <p>Firma Personal Starx:_____________________</p> <br><br><br>
+                  <p>Firma Cliente:_____________________</p>
+                </div>
+                <!-- FIN pagina 1 -->
+                
+            </t>
+          </t>
+        </template>
+    </data>
+</odoo>
