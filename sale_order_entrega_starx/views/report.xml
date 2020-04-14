@@ -16,7 +16,7 @@
                 
                 <!-- Pagina 1 llamo al reporte -->
                 <div class="page">
-                  <p>Firma Personal Starx:_____________________</p> <br/><br/><br/>
+                  <p>Firma Personal Starx:_____________________</p> <br/><br/><br/> <!--este codigo hace un salto de linea en la vista-->
                   <p>Firma Cliente:_____________________</p>
                 </div>
                 <!-- FIN pagina 1 -->
