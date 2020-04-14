@@ -2,17 +2,17 @@
 <!-- ejemplo de comnetario -->
 <odoo>
     <data> 
-        <report id="report_starx"
+        <report id="report_entrega_starx"
             string="Vale de entrega Starx"
             model="sale.order"
             report_type="qweb-pdf"
-            name="sale_order_starx.report_starx_template"
-            file="sale_order_starx.report_starx_template"
+            name="sale_order_starx.report_entrega_starx_template"
+            file="sale_order_starx.report_entrega_starx_template"
         />
       
-        <template id="report_starx_template">
+        <template id="report_entrega_starx_template">
           <t t-call="web.html_container">
-              <t t-call="web.external_layout">
+             <t t-call="web.external_layout">
                 
                 <!-- Pagina 1 llamo al reporte -->
                 <div class="page">
