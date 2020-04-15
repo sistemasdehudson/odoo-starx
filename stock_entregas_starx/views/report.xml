@@ -2,6 +2,7 @@
 <!-- ejemplo de comnetario -->
 <odoo>
     <data> 
+        
         <report id="report_stock_entrega_starx"
             string="Vale de entrega Starx"
             model="stock.picking"
@@ -9,7 +10,7 @@
             name="stock_entregas_starx.report_starx_template"
             file="stock_entregas_starx.report_starx_template"
         />
-<!-- attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')" -->
+        
         <template id="report_starx_template">
           <t t-call="web.html_container">
               <t t-call="web.external_layout">   
@@ -20,9 +21,10 @@
                      </t>
                   </t>
                 </div>
-    <!-- FIN pagina 1 -->          
+                <!-- FIN pagina 1 -->          
             </t>
           </t>
         </template>
+    
     </data>
 </odoo>
