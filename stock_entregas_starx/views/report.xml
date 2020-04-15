@@ -2,12 +2,12 @@
 <!-- ejemplo de comnetario -->
 <odoo>
     <data> 
-        <report id="report_starx"
-            string="Presupuesto / Pedido Starx"
-            model="sale.order"
+        <report id="report_stock_entrega_starx"
+            string="Vale de entrega Starx"
+            model="stock.picking"
             report_type="qweb-pdf"
-            name="sale_order_starx.report_starx_template"
-            file="sale_order_starx.report_starx_template"
+            name="stock_entregas_starx.report_starx_template"
+            file="stock_entregas_starx.report_starx_template"
         />
 <!-- attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')" -->
         <template id="report_starx_template">
