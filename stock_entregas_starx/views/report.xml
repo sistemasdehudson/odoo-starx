@@ -19,9 +19,10 @@
                 <div class="page">
                   <t t-foreach="docs" t-as="o">
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
-                  </t>
-              
-           <div class="tabla-firma">
+                  </t>    
+                </div>
+                  <!-- START de tabla -->
+                   <div class="tabla-firma">
         <table border="1px" class="tabla-content"> <!-- Lo cambiaremos por CSS en styles.css -->
             <tr class="file-1">
                 <td></td>
@@ -54,8 +55,8 @@
             <td>______________</td>
         </tr>
         </table>
-       </div>    
-                </div>
+       </div>
+                  <!-- END de tabla -->
                 <!-- FIN pagina 1 -->          
             </t>
           </t>
