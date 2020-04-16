@@ -21,7 +21,7 @@
                 <xpath expr="//div[@class='oe_structure'][last()]" position= "after">
                     <span t-field="doc.pricelist_id.currency_id" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
                     <!-- FIN Agrego el campo -->
-                <xpath
+                </xpath>
            </t>      
        </t>                                         
    </t>        
