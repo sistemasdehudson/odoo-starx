@@ -19,6 +19,25 @@
                   <t t-foreach="docs" t-as="o">
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                   </t>
+                  
+        <table border="2px"> <!-- Lo cambiaremos por CSS -->
+           <tr>
+              <td>Celda 1</td>
+              <td>Celda 2</td>
+              <td>Celda 3</td>
+          </tr>
+          <tr>
+              <td>Celda 4</td>
+              <td>Celda 5</td>
+              <td>Celda 6</td>
+          </tr>
+          <tr>
+              <td>Celda 7</td>
+              <td>Celda 8</td>
+              <td>Celda 9</td>
+          </tr>
+        </table>
+                  
                 </div>
                 <!-- FIN pagina 1 -->          
             </t>
