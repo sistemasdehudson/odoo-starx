@@ -11,20 +11,20 @@
         />
 <!-- attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')" -->
  <template id="report_starx_template">
-           <t t-call="web.html_container">
-               <!-- Pagina 1 llamo al reporte  -->
-               <t t-foreach="docs" t-as="doc">
-                  <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
-                   <!--    FIN pagina 1 -->
-                   
+   <t t-call="web.html_container">
+       <!-- Pagina 1 llamo al reporte  -->
+       <t t-foreach="docs" t-as="doc">
+           <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
+                   <!--    FIN pagina 1 -->                   
                    <!-- Agrego el campo -->
-                 <t t-call="web.external_layout">
-    <span t-field="doc.pricelist_id.currency_id" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
-    <!-- FIN Agrego el campo -->
-               </t>      
-             </t>                                         
-     </t>        
+                <t t-call="web.external_layout">
+                <xpath expr="//div[@class='oe_structure'][last()]" position= "after">
+                    <span t-field="doc.pricelist_id.currency_id" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
+                    <!-- FIN Agrego el campo -->
+                <xpath
+           </t>      
+       </t>                                         
+   </t>        
  </template>
-    
-    </data>
+</data>
 </odoo>
