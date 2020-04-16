@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="styles.css"?>
 <!-- ejemplo de comnetario -->
 <odoo>
     <data> 
@@ -19,7 +20,8 @@
                   <t t-foreach="docs" t-as="o">
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                   </t>
-                  
+              
+       <div class="tabla-firma">
         <table border="2px"> <!-- Lo cambiaremos por CSS -->
            <tr>
               <td>Celda 1</td>
@@ -37,7 +39,7 @@
               <td>Celda 9</td>
           </tr>
         </table>
-                  
+       </div>           
                 </div>
                 <!-- FIN pagina 1 -->          
             </t>
