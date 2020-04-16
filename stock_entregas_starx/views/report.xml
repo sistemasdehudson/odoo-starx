@@ -21,25 +21,40 @@
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                   </t>
               
-       <div class="tabla-firma">
-        <table class="tabla-content"> <!-- Lo cambiaremos por CSS en styles.css -->
-           <tr>
-              <td>Celda 1</td>
-              <td>Celda 2</td>
-              <td>Celda 3</td>
+           <div class="tabla-firma">
+        <table border="1px" class="tabla-content"> <!-- Lo cambiaremos por CSS en styles.css -->
+            <tr class="file-1">
+                <td></td>
+                <td>Firma</td>
+                <td>Aclaración</td>
+                <td>DNI</td>
+            </tr>
+            <tr>
+              <td>Preparó pedido</td>
+              <td>______________</td>
+              <td>______________</td>
+              <td>______________</td>
           </tr>
           <tr>
-              <td>Celda 4</td>
-              <td>Celda 5</td>
-              <td>Celda 6</td>
+              <td>Controló pedido</td>
+              <td>______________</td>
+              <td>______________</td>
+              <td>______________</td>
           </tr>
           <tr>
-              <td>Celda 7</td>
-              <td>Celda 8</td>
-              <td>Celda 9</td>
+              <td>Transporte interno</td>
+              <td>______________</td>
+              <td>______________</td>
+              <td>______________</td>
           </tr>
+          <tr>
+            <td>Receptor</td>
+            <td>______________</td>
+            <td>______________</td>
+            <td>______________</td>
+        </tr>
         </table>
-       </div>           
+       </div>    
                 </div>
                 <!-- FIN pagina 1 -->          
             </t>
