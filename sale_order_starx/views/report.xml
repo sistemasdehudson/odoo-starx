@@ -17,13 +17,12 @@
                   <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
                    <!--    FIN pagina 1 -->
                </t>                            
-          </t>
-        </template>
-    
-<template id="report_starx_template_document">
     <!-- Agrego el campo -->
     <p t-field="doc.pricelist_id.currency_id"/>
     <!-- FIN Agrego el campo -->
-</template>
+               
+     </t>        
+ </template>
+    
     </data>
 </odoo>
