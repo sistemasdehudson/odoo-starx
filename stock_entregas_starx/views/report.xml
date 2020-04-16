@@ -25,8 +25,7 @@
                 <!-- FIN pagina 1 -->          
             </t>
           </t>
-        </template>
-    <!-- START de tabla -->
+            <!-- START de tabla -->
                    <div class="tabla-firma">
         <table border="1px" class="tabla-content"> <!-- Lo cambiaremos por CSS en styles.css -->
             <tr class="file-1">
@@ -62,5 +61,7 @@
         </table>
        </div>
                   <!-- END de tabla -->
+        </template>
+    
     </data>
 </odoo>
