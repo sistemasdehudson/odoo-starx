@@ -12,18 +12,18 @@
 <!-- attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')" -->
         <template id="report_starx_template">
            <t t-call="web.html_container">
-                <!-- Pagina 1 llamo al reporte -->
-                <div class="page">
+                <t t-call="report.external_layout">
+                <!-- Pagina 1 llamo al reporte 
+                <div class="page">   -->
                 <t t-foreach="docs" t-as="doc">
-                  <t t-call="report.external_layout">
                   <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
                   <!-- Agrego el campo -->
                   <p t-field="doc.pricelist_id.currency_id"/>
                   <!-- FIN Agrego el campo -->
-                </t>
-                </t>
-                </div>
-    <!-- FIN pagina 1 -->          
+                </t>               
+    <!--            </div>
+    <!-- FIN pagina 1 -->
+            </t>
           </t>
         </template>
     </data>
