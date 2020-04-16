@@ -17,7 +17,8 @@
        <t t-foreach="docs" t-as="doc">
            <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
                    <!--    FIN pagina 1 -->                   
-                   <!-- Agrego el campo -->                
+                   <!-- Agrego el campo --> 
+                <td>Texto a mano</td>
                 <xpath expr="//div[@class='oe_structure'][last()]" position= "after">
                     <span t-field="doc.pricelist_id.currency_id" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
                     <!-- FIN Agrego el campo -->
