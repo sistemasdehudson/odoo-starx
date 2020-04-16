@@ -22,7 +22,7 @@
                   </t>
               
        <div class="tabla-firma">
-        <table border="2px"> <!-- Lo cambiaremos por CSS -->
+        <table class="tabla-content"> <!-- Lo cambiaremos por CSS en styles.css -->
            <tr>
               <td>Celda 1</td>
               <td>Celda 2</td>
