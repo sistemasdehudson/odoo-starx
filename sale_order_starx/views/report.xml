@@ -14,7 +14,7 @@
            <t t-call="web.html_container">
                <!-- Pagina 1 llamo al reporte  -->
                <t t-foreach="docs" t-as="doc">
-                  <t t-call="report_saleorder_document.report_starx_template_document" t-lang="doc.partner_id.lang"/>
+                  <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
                    <!--    FIN pagina 1 -->
                </t>                            
           </t>
