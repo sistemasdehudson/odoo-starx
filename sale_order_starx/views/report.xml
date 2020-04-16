@@ -16,11 +16,11 @@
                <t t-foreach="docs" t-as="doc">
                   <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
                    <!--    FIN pagina 1 -->
-               </t>                            
-    <!-- Agrego el campo -->
+                   
+                   <!-- Agrego el campo -->
     <p t-field="doc.pricelist_id.currency_id"/>
     <!-- FIN Agrego el campo -->
-               
+               </t>                                         
      </t>        
  </template>
     
