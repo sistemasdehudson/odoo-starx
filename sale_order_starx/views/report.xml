@@ -18,9 +18,11 @@
                    <!--    FIN pagina 1 -->
                    
                    <!-- Agrego el campo -->
+                 <t t-call="web.external_layout">
     <p t-field="doc.pricelist_id.currency_id"/>
     <!-- FIN Agrego el campo -->
-               </t>                                         
+               </t>      
+             </t>                                         
      </t>        
  </template>
     
