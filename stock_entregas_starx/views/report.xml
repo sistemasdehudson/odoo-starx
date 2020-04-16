@@ -21,7 +21,12 @@
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                   </t>    
                 </div>
-                  <!-- START de tabla -->
+                  
+                <!-- FIN pagina 1 -->          
+            </t>
+          </t>
+        </template>
+    <!-- START de tabla -->
                    <div class="tabla-firma">
         <table border="1px" class="tabla-content"> <!-- Lo cambiaremos por CSS en styles.css -->
             <tr class="file-1">
@@ -57,10 +62,5 @@
         </table>
        </div>
                   <!-- END de tabla -->
-                <!-- FIN pagina 1 -->          
-            </t>
-          </t>
-        </template>
-    
     </data>
 </odoo>
