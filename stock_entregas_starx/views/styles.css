@@ -1,1 +1,9 @@
+.tabla-firma{
+    position: absolute;
+    bottom: 0;
+}
 
+.tabla-content{
+    margin: 1em auto;
+    /* border: 1px solid black; */
+}
