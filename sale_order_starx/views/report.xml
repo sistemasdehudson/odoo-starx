@@ -9,8 +9,8 @@
             name="sale_order_starx.report_starx_template"
             file="sale_order_starx.report_starx_template"
         />
-<!-- attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')" -->
-<template id="report_starx_template">
+
+ <template id="report_starx_template">
   <t t-call="web.html_container">
     <t t-call="web.external_layout">
        <div class="header">
@@ -30,5 +30,6 @@
     </t>                                         
  </t>        
 </template>    
+        
 </data>
 </odoo>
