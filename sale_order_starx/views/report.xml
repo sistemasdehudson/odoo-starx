@@ -10,12 +10,12 @@
             file="sale_order_starx.report_starx_template"
         />
 <!-- attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')" -->
- <template id="report_starx_template">
-   <t t-call="web.html_container">
+ <template id="report_starx_template" inherit_id="sale.report_saleorder_document">
+   <!--<t t-call="web.html_container">   -->
       <!-- <t t-call="web.external_layout"> -->
        <!-- Pagina 1 llamo al reporte  -->
-       <t t-foreach="docs" t-as="doc">
-           <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>
+     <!--  <t t-foreach="docs" t-as="doc">
+           <t t-call="sale.report_saleorder_document" t-lang="doc.partner_id.lang"/>   -->
                    <!--    FIN pagina 1 -->                   
                    <!-- Agrego el campo --> 
                 <td>Texto a mano</td>
@@ -23,8 +23,7 @@
                     <span t-field="doc.pricelist_id.currency_id" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
                     <!-- FIN Agrego el campo -->
                 </xpath>
-           </t>                                               
-   </t>        
+                                                       
  </template>
 </data>
 </odoo>
