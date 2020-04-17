@@ -23,8 +23,7 @@
                     <span t-field="doc.pricelist_id.currency_id" t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
                     <!-- FIN Agrego el campo -->
                 </xpath>
-           </t>      
-       </t>                                         
+           </t>                                               
    </t>        
  </template>
 </data>
