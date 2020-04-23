@@ -22,8 +22,8 @@
                   </t>  
                      <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
                     <!-- START de tabla -->
-                   <div class="tabla-firma">
-        <table border="1px" class="tabla-content"> <!-- Lo cambiaremos por CSS en styles.css -->
+                  
+        <table border="1px" class="tabla-content">
             <tr class="file-1">
                 <td></td>
                 <td>Firma</td>
@@ -55,7 +55,6 @@
             <td>______________</td>
         </tr>
         </table>
-       </div>
                   <!-- END de tabla -->
                     </t> 
                 </div>
