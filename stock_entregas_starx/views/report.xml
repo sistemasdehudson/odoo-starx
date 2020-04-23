@@ -21,7 +21,12 @@
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                   </t>  
                      <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
-                    <!-- START de tabla -->
+
+                    </t> 
+                </div>
+                <!-- FIN pagina 1 --> 
+              
+                                  <!-- START de tabla -->
                   
         <table border="1px" class="tabla-content">
             <tr class="file-1">
@@ -56,10 +61,6 @@
         </tr>
         </table>
                   <!-- END de tabla -->
-                    </t> 
-                </div>
-                  
-                <!-- FIN pagina 1 -->          
            
           </t>
         </template>
