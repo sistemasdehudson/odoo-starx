@@ -22,14 +22,10 @@
                   </t>  
                      <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
 
-                    </t> 
-                </div>
-                <!-- FIN pagina 1 --> 
-              
-                                  <!-- START de tabla -->
+       <!-- START de tabla -->
                   
-        <table border="1px" class="tabla-content">
-            <tr class="file-1">
+        <table>
+            <tr class="o_td_label">
                 <td></td>
                 <td>Firma</td>
                 <td>Aclaración</td>
@@ -61,6 +57,12 @@
         </tr>
         </table>
                   <!-- END de tabla -->
+                         
+                    </t> 
+                </div>
+                <!-- FIN pagina 1 --> 
+              
+
            
           </t>
         </template>
