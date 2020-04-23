@@ -21,10 +21,10 @@
                   <t t-foreach="docs" t-as="o">
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                   </t>  
-                     <t t-call="web"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
+                     <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
                          
                          <!-- START de tabla -->
-        <div>      
+        <div class="row">      
         <table>
             <tr class="o_td_label">
                 <td></td>
