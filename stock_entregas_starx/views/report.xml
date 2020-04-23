@@ -22,9 +22,12 @@
                   </t>  
                      <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
                          
-                    </t> 
-            
-                 <!-- START de tabla -->
+                    </t>
+                    
+                </div>
+                <!-- FIN pagina 1 --> 
+              
+             <!-- START de tabla -->
                   
         <table>
             <tr class="o_td_label">
@@ -59,11 +62,6 @@
         </tr>
         </table>
                   <!-- END de tabla -->
-                    
-                </div>
-                <!-- FIN pagina 1 --> 
-              
-            
 
            
           </t>
