@@ -28,7 +28,7 @@
                 <!-- FIN pagina 1 --> 
               
              <!-- START de tabla -->
-                  
+        <div>      
         <table>
             <tr class="o_td_label">
                 <td></td>
@@ -61,6 +61,7 @@
             <td>______________</td>
         </tr>
         </table>
+              </div>
                   <!-- END de tabla -->
 
            
