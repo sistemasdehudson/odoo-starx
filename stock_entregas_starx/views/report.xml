@@ -19,8 +19,12 @@
                 <div class="page">
                   <t t-foreach="docs" t-as="o">
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
-                     
-                      <!-- START de tabla -->
+                  </t>  
+                     <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
+                         
+                    </t> 
+            
+                 <!-- START de tabla -->
                   
         <table>
             <tr class="o_td_label">
@@ -55,14 +59,11 @@
         </tr>
         </table>
                   <!-- END de tabla -->
-                     
-                  </t>  
-                     <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
-                         
-                    </t> 
+                    
                 </div>
                 <!-- FIN pagina 1 --> 
               
+            
 
            
           </t>
