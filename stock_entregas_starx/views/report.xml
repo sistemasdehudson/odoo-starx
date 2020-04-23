@@ -16,12 +16,12 @@
               
               
                 <!-- Pagina 1 llamo al reporte -->
-              <t t-call="web.external_layout">  
+                
               <div class="page">
                   <t t-foreach="docs" t-as="o">
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                   </t>  
-                      <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
+                     <t t-call="web"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
                          
                          <!-- START de tabla -->
         <div>      
