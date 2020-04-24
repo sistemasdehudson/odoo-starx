@@ -25,7 +25,7 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/report_stock_entrega_starx.xml',
+        'views/report_starx_template.xml',
         'views/views.xml',
         'views/templates.xml',
     ],
