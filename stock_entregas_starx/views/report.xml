@@ -12,7 +12,7 @@
           <!-- START de tabla -->    
     <t t-call="web.external_layout">
           <div class="page">
-        <table>
+        <table style>
             <tr class="o_td_label">
                 <td></td>
                 <td>Firma</td>
@@ -20,7 +20,7 @@
                 <td>DNI</td>
             </tr>
             <tr>
-              <td>Preparó pedido</td>
+              <s><td>Preparó pedido</td> </s>
               <td>______________</td>
               <td>______________</td>
               <td>______________</td>
