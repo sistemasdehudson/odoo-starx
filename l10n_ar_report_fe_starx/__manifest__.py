@@ -7,9 +7,9 @@
     ],
     'installable': True,
     'license': 'AGPL-3',
-    'name': 'l10n_ar_report_fe',
+    'name': 'l10n_ar_report_fe_starx',
     'data': [
-        'report_invoice_fe.xml',
+        'report_invoice_fe_starx.xml',
     ],
     'demo': [
 
