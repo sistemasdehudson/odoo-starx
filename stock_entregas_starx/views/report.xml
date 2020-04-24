@@ -17,8 +17,8 @@
                 <!-- Pagina 1 llamo al reporte -->
                 
               <div class="page">
-                <t t-name="stock.report_deliveryslip"> <!-- nuevo -->
-                  <t t-foreach="docs" t-as="o">
+                <t t-name="stock.report_deliveryslip"> <!-- nuevo Está conteniendo toda la tabla-->
+                  <t t-foreach="docs" t-as="o"> <!-- nuevo Está conteniendo toda la tabla-->
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
                     
                     <!-- <t t-call="web.external_layout"> --> <!-- Comento para probar -->
