@@ -7,10 +7,8 @@
        <t t-name="stock.report_deliveryslip">
         <t t-foreach="docs" t-as="o">
             <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
-        </t>
-       </t>
-       
-          <!-- START de tabla -->    
+            
+            <!-- START de tabla -->    
        <div class="row">
         <table>
             <tr class="o_td_label">
@@ -46,7 +44,10 @@
         </table>
       </div>
                   <!-- END de tabla -->
-          
+            
+        </t>
+       </t>
+   
       </template>
         <!-- Pasé el botón a la parte inferior. -->
         
