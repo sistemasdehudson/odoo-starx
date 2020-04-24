@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
 <data>
-<t t-name="stock_entregas_starx.report_stock_starx_document">
-        <t t-call="web.html_container">
+
+        
+<template id="report_stock_starx_document">
+<!-- <t t-name="stock_entregas_starx.report_stock_starx_document"> -->
             <t t-call="web.external_layout">
                 <t t-set="o" t-value="o.with_context(lang=o.partner_id.lang)"/>
                 <t t-set="partner" t-value="o.partner_id or (o.move_lines and o.move_lines[0].partner_id) or False"/>
@@ -93,8 +95,7 @@
                     </p>
                 </div>
             </t>
-         </t>
-    </t>
+</template>
               
    <template id="report_starx_template">
     <t t-call="web.html_container">
