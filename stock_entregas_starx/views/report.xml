@@ -13,14 +13,15 @@
     <t t-call="web.external_layout">
           <div class="page">
         <table>
-            <tr class="o_td_label">
+            <font size="6">
+                <tr class="o_td_label">
                 <td></td>
                 <td>Firma</td>
                 <td>Aclaración</td>
                 <td>DNI</td>
             </tr>
             <tr>
-              <s><td>Preparó pedido</td> </s>
+              <td>Preparó pedido</td>
               <td>______________</td>
               <td>______________</td>
               <td>______________</td>
@@ -43,6 +44,7 @@
             <td>______________</td>
             <td>______________</td>
         </tr>
+            </font>
         </table>
       </div>
           </t> <!-- END t-call external layout -->
