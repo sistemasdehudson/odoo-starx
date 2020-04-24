@@ -96,6 +96,43 @@
                    
                         <p>Hola Mundo!</p>
                         
+                        
+                        <!-- START de tabla -->    
+        <table class="table table-sm" t-if="o.state!='done'" name="stock_move_table">
+                <tr>
+                <td></td>
+                <td>Firma</td>
+                <td>Aclaración</td>
+                <td>DNI</td>
+            </tr>
+            <tr>
+              <td>Preparó pedido</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+          </tr>
+          <tr>
+              <td>Controló pedido</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+          </tr>
+          <tr>
+              <td>Transporte interno</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+          </tr>
+          <tr>
+            <td>Receptor</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+        </tr>
+        </table>
+                  <!-- END de tabla -->
+                        
+                        
                 </div>
             </t>
 </template>
