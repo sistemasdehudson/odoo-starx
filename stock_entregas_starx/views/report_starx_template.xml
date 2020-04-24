@@ -93,10 +93,7 @@
                             All items couldn't be shipped, the remaining ones will be shipped as soon as they become available.
                         </t>
                     </p>
-                   
-                        <p>Hola Mundo!</p>
-                        
-                        
+
                         <!-- START de tabla -->    
         <table class="table table-sm" t-if="o.state!='done'" name="stock_move_table">
                 <tr>
