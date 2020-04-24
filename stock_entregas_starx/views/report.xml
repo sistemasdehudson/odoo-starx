@@ -13,15 +13,15 @@
         
         <template id="report_starx_template">
           <t t-call="web.html_container">
-              
-              
+
                 <!-- Pagina 1 llamo al reporte -->
                 
               <div class="page">
+                <t t-name="stock.report_deliveryslip"> <!-- nuevo -->
                   <t t-foreach="docs" t-as="o">
                     <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
-                  </t>  
-                     <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
+                    
+                    <!-- <t t-call="web.external_layout"> --> <!-- Comento para probar -->
                          
                          <!-- START de tabla -->
         <div class="row">      
@@ -59,8 +59,8 @@
         </table>
               </div>
                   <!-- END de tabla -->
-                         
-                    </t>
+                </t>
+               </t>
                     
                 </div>
                 <!-- FIN pagina 1 --> 
