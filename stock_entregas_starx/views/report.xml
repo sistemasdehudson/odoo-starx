@@ -3,6 +3,13 @@
 <odoo>
     <data> 
         
+        <t t-name="stock.report_deliveryslip">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
+        </t>
+    </t>
+
+        
         <report id="report_stock_entrega_starx"
             string="Vale de entrega Starx"
             model="stock.picking"
@@ -10,63 +17,7 @@
             name="stock_entregas_starx.report_starx_template"
             file="stock_entregas_starx.report_starx_template"
         />
-        
-        <template id="report_starx_template">
-          <t t-call="web.html_container">
-              
-              
-                <!-- Pagina 1 llamo al reporte -->
-                
-              <div class="page">
-                  <t t-foreach="docs" t-as="o">
-                    <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
-                  </t>  
-                     <t t-call="web.external_layout"> <!-- este hace que la página se duplique y, además, que vaya a otra hoja la tabla. CORREGIR -->
-                         
-                         <!-- START de tabla -->
-        <div class="row">      
-        <table>
-            <tr class="o_td_label">
-                <td></td>
-                <td>Firma</td>
-                <td>Aclaración</td>
-                <td>DNI</td>
-            </tr>
-            <tr>
-              <td>Preparó pedido</td>
-              <td>______________</td>
-              <td>______________</td>
-              <td>______________</td>
-          </tr>
-          <tr>
-              <td>Controló pedido</td>
-              <td>______________</td>
-              <td>______________</td>
-              <td>______________</td>
-          </tr>
-          <tr>
-              <td>Transporte interno</td>
-              <td>______________</td>
-              <td>______________</td>
-              <td>______________</td>
-          </tr>
-          <tr>
-            <td>Receptor</td>
-            <td>______________</td>
-            <td>______________</td>
-            <td>______________</td>
-        </tr>
-        </table>
-              </div>
-                  <!-- END de tabla -->
-                         
-                    </t>
-                    
-                </div>
-                <!-- FIN pagina 1 --> 
-
-          </t>
-        </template>
+       
     
     </data>
 </odoo>
