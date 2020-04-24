@@ -214,8 +214,9 @@
                                         <thead>
                                             <tr>
                                                 <th>Impuesto</th>
+						<th class="text-right">Monto Pesos</th>
                                                 <th class="text-right">Base</th>
-                                                <th class="text-right">Monto</th>
+                                                <th class="text-right">Monto Dólares</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -306,10 +307,10 @@
         </div><!--END ARTICLE-->
 </template>
 
-<template id="report_invoice_fe">
+<template id="report_invoice_fe_uss">
     <t t-call="web.html_container">
         <t t-foreach="docs" t-as="o">
-            <t t-call="l10n_ar_report_fe.report_fe_invoice_document" t-lang="o.partner_id.lang"/>
+            <t t-call="l10n_ar_report_fe_uss.report_fe_invoice_document" t-lang="o.partner_id.lang"/>
         </t>
     </t>
 </template>
@@ -318,10 +319,10 @@
         <report
             id="account_fe_invoices"
             model="account.move"
-            string="Facturas Electronicas"
+            string="Facturas Electronicas USS"
             report_type="qweb-pdf"
-            name="l10n_ar_report_fe.report_invoice_fe"
-            file="l10n_ar_report_fe.report_invoice_fe"
+            name="l10n_ar_report_fe_uss.report_invoice_fe_uss"
+            file="l10n_ar_report_fe_uss.report_invoice_fe_uss"
             attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
         />
 
