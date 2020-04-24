@@ -10,7 +10,8 @@
         </t>
        </t>
        
-          <!-- START de tabla -->     
+          <!-- START de tabla -->    
+       <div class="row">
         <table>
             <tr class="o_td_label">
                 <td></td>
@@ -43,6 +44,7 @@
             <td>______________</td>
         </tr>
         </table>
+      </div>
                   <!-- END de tabla -->
           
       </template>
