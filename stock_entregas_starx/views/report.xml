@@ -2,13 +2,13 @@
 <!-- ejemplo de comnetario -->
 <odoo>
     <data> 
-        
-        <t t-name="stock.report_deliveryslip">
+      <template id="report_starx_template">
+       <t t-name="stock.report_deliveryslip">
         <t t-foreach="docs" t-as="o">
             <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
         </t>
-    </t>
-
+       </t>
+      </template>
         <!-- Pasé el botón a la parte inferior. Agregué las líneas de arriba para que 
 se parezca al vale de entrega original. -->
         
