@@ -5,7 +5,7 @@
         
         <report id="report_stock_entrega_starx"
             string="Vale de entrega Starx"
-            model="stock.picking"
+            model="stock.move"
             report_type="qweb-pdf"
             name="stock_entregas_starx.report_starx_template"
             file="stock_entregas_starx.report_starx_template"
