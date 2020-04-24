@@ -12,7 +12,7 @@
           <!-- START de tabla -->    
     <t t-call="web.external_layout">
           <div class="page">
-        <table style>
+        <table>
             <tr class="o_td_label">
                 <td></td>
                 <td>Firma</td>
