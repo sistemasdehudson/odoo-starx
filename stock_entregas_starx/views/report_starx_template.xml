@@ -111,7 +111,5 @@
             name="stock_entregas_starx.report_starx_template"
             file="stock_entregas_starx.report_starx_template"
              />
-               
-               
-        </data>
+</data>
 </odoo>
