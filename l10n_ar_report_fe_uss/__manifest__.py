@@ -7,13 +7,12 @@
     ],
     'installable': True,
     'license': 'AGPL-3',
-    'name': 'l10n_ar_report_fe',
+    'name': 'l10n_ar_report_fe_uss',
     'data': [
-        'report_invoice_fe.xml',
+        'report_invoice_fe_uss.xml',
     ],
     'demo': [
 
     ],
     'version': '13.0.1.0.0',
 }
-© 2020 GitHub, Inc.
