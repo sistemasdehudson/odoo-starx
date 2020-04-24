@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+       <data>
+
 <t t-name="stock_entregas_starx.report_stock_starx_document">
         <t t-call="web.html_container">
             <t t-call="web.external_layout">
@@ -93,3 +96,15 @@
             </t>
          </t>
     </t>
+               
+            <report id="report_stock_entrega_starx"
+            string="Vale de entrega Starx"
+            model="stock.picking"
+            report_type="qweb-pdf"
+            name="stock_entregas_starx.report_stock_entrega_starx"
+            file="stock_entregas_starx.report_stock_entrega_starx"
+             />
+               
+               
+        </data>
+</odoo>
