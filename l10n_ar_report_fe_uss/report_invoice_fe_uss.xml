@@ -236,16 +236,11 @@
                                                     <span t-field="t.tax_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                                                 </td>
                                             </tr>
-					   <!-- <tr t-foreach="o.line_ids" t-as="k">
-						<td>    
-					           <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
-						</td> 
-					</tr> -->
                                         </tbody>
                                     </table>
                                 </td>
                             </tr>
-                          <tr class="border-black">
+                          <tr class="border-black" t-if="o.l10n_latam_document_type_id.l10n_ar_letter != 'B'">
                               <td><strong>Total</strong></td>
                               <td class="text-right">
                                    <span t-field="o.amount_total" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
