@@ -329,9 +329,5 @@
             attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
         />
 
-	<p>Monto Pesos:
-		<span t-field="o.line_id.credit" />
-	</p>
-
 </data>
 </odoo>
