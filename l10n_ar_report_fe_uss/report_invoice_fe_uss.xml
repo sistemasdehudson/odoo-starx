@@ -185,6 +185,10 @@
                           <span t-field="l.price_subtotal_vat" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                           <!-- span t-field="l.price_subtotal" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/ -->
                       </td>
+		      <td class="text-right">
+				<span t-field="l.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+		      </td>
+			    
                   </tr>
                 </tbody>
               </table><!-- END TABLA ITEMS -->
@@ -223,7 +227,7 @@
                                             <tr t-foreach="o.move_tax_ids" t-as="t">
                                                 <td><span t-field="t.tax_id.description"/></td>
 						<td>  Monto Pesos
-						    <span t-field="l.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+						     
 						</td>
                                                 <td class="text-right">
                                                     <span t-field="t.base_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
