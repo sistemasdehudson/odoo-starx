@@ -223,7 +223,7 @@
                                             <tr t-foreach="o.move_tax_ids" t-as="t">
                                                 <td><span t-field="t.tax_id.description"/></td>
 						<td>  Monto Pesos
-						    <span t-field="o.line_id.credit" />
+						    <!-- <span t-field="o.line_id.credit" /> -->
 						</td>
                                                 <td class="text-right">
                                                     <span t-field="t.base_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
@@ -329,6 +329,9 @@
             attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
         />
 
+	<p>Monto Pesos:
+		<span t-field="o.line_id.credit" />
+	</p>
 
 </data>
 </odoo>
