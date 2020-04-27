@@ -224,7 +224,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr t-foreach="o.move_tax_ids , o.line_ids" t-as="t , k">
+                                            <tr t-foreach="o.move_tax_ids o.line_ids" t-as="t k">
                                                 <td><span t-field="t.tax_id.description"/></td>
 						<td>  Monto Pesos
 						     <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
