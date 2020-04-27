@@ -223,7 +223,7 @@
                                             <tr t-foreach="o.move_tax_ids" t-as="t">
                                                 <td><span t-field="t.tax_id.description"/></td>
 						<td>  Monto Pesos
-						    <span t-field="o.account_id.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+						 <!--   <span t-field="o.account_id.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/> -->
 						</td>
                                                 <td class="text-right">
                                                     <span t-field="t.base_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
@@ -232,6 +232,9 @@
                                                     <span t-field="t.tax_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                                                 </td>
                                             </tr>
+						<p>
+							Monto en pesos: <span t-field="o.account_id.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+						</p>
                                         </tbody>
                                     </table>
                                 </td>
