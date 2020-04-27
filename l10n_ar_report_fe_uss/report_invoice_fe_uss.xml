@@ -239,8 +239,8 @@
 					   <!-- <tr t-foreach="o.line_ids" t-as="k">
 						<td>    
 					           <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
-						</td> -->
-					</tr>
+						</td> 
+					</tr> -->
                                         </tbody>
                                     </table>
                                 </td>
