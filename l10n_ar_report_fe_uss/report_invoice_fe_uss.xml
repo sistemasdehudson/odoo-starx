@@ -185,9 +185,9 @@
                           <span t-field="l.price_subtotal_vat" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                           <!-- span t-field="l.price_subtotal" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/ -->
                       </td>
-		      <td class="text-right">
-			  <span t-field="l.line_id" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
-		      </td>
+		     <!-- <td class="text-right">
+			  <span t-field="l.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+		      </td> -->
 			    
                   </tr>
                 </tbody>
