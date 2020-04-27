@@ -237,8 +237,10 @@
                                                 </td>
                                             </tr>
 					    <tr t-foreach="o.line_ids" t-as="k">
-						<span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
-					    </tr>
+						<td>    
+					           <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+						</td>
+					</tr>
                                         </tbody>
                                     </table>
                                 </td>
