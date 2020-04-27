@@ -224,15 +224,15 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td t-foreach="o.move_tax_ids" t-as="t"><span t-field="t.tax_id.description"/></td>
+                                            <tr t-foreach="o.move_tax_ids" t-as="t">
+                                                <td><span t-field="t.tax_id.description"/></td>
 						<!-- <td t-foreach="o.line_ids" t-as="k" class="text-right">
 						     <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
 						</td> -->
-                                                <td t-foreach="o.move_tax_ids" t-as="t" class="text-right">
+                                                <td class="text-right">
                                                     <span t-field="t.base_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                                                 </td>
-                                                <td t-foreach="o.move_tax_ids" t-as="t" class="text-right">
+                                                <td class="text-right">
                                                     <span t-field="t.tax_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                                                 </td>
                                             </tr>
