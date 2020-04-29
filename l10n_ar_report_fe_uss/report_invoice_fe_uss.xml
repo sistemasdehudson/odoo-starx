@@ -224,15 +224,15 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr> <!-- VOLVER A CONFIGURAR COMO ESTABA AL PRINCIPIO -->
-                                                <td t-foreach="o.move_tax_ids" t-as="t"><span t-field="t.tax_id.description"/></td>
-						<td t-foreach="o.line_ids" t-as="k" class="text-right">
+                                            <tr t-foreach="o.move_tax_ids" t-as="t"> <!-- VOLVER A CONFIGURAR COMO ESTABA AL PRINCIPIO -->
+                                                <td><span t-field="t.tax_id.description"/></td>
+					<!--	<td t-foreach="o.line_ids" t-as="k" class="text-right">
 						     <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
-						</td> 
-                                                <td t-foreach="o.move_tax_ids" t-as="t" class="text-right">
+						</td> --> <!-- PROBAR CON UN PARAGRAPH ANTES DE QUE TERMINE EL TEMPLATE -->
+                                                <td class="text-right">
                                                     <span t-field="t.base_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
-                                                </td> <!-- PROBAR CON UN PARAGRAPH ANTES DE QUE TERMINE EL TEMPLATE -->
-                                                <td t-foreach="o.move_tax_ids" t-as="t" class="text-right">
+                                                </td>
+                                                <td class="text-right">
                                                     <span t-field="t.tax_amount" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                                                 </td>
                                             </tr>
@@ -312,6 +312,9 @@
             </div>
             <!-- END CAE -->
         </div><!--END ARTICLE-->
+	<p t-foreach="o.line_ids" t-as="k" class="text-right">
+	   <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+	</p>
 </template>
 
 <template id="report_invoice_fe_uss">
