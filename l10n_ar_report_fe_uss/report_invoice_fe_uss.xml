@@ -312,7 +312,7 @@
             </div>
             <!-- END CAE -->
 	<p t-foreach="o.line_ids" t-as="k" class="text-right">
-	   <span t-field="k.credit" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
+	   <span t-field="k.account_id" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
 	</p>
         </div><!--END ARTICLE-->
 </template>
