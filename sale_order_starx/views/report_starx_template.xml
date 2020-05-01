@@ -200,7 +200,8 @@
             </p>
             
           <!-- Agrego el campo (Hubo que comentarlo porque no estaba dejando que funcione el botón. -->
-            <p><span t-field="doc.pricelist_id"/> <span t-field="doc.pricelist_id.currency_id"/>
+            <p>
+                <span t-field="doc.pricelist_id"/>
             </p>
             <!-- FIN Agrego el campo --> 
             
