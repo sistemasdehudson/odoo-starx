@@ -5,7 +5,7 @@
         
 <template id="report_stock_starx_document">
 <!-- <t t-name="stock_entregas_starx.report_stock_starx_document"> -->
-            <t t-call="web.external_layout" t-lang="es_ES">
+            <t t-call="web.external_layout">
                 <t t-set="o" t-value="o.with_context(lang=o.partner_id.lang)"/>
                 <t t-set="partner" t-value="o.partner_id or (o.move_lines and o.move_lines[0].partner_id) or False"/>
                 <t t-if="partner" name="partner_header">
