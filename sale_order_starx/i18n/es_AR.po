@@ -1,0 +1,148 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_starx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-14 18:26+0000\n"
+"PO-Revision-Date: 2020-05-14 18:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "&amp;nbsp;<span>on</span>&amp;nbsp;"
+msgstr "en"
+
+#. module: sale_order_starx
+#: model:ir.actions.report,print_report_name:sale_order_starx.report_sale_order_starx
+msgid ""
+"(object.state in ('draft', 'sent') and 'Presupuesto - %s' % (object.name)) "
+"or 'Pedido - %s' % (object.name)"
+msgstr ""
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<span>Disc.%</span>"
+msgstr "Desc.%"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<span>Pro-Forma Invoice # </span>"
+msgstr "Factura de proforma"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "Subtotal"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Expiration:</strong>"
+msgstr "Vencimiento"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr "Comentario de posición fiscal"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Order Date:</strong>"
+msgstr ""
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Quotation Date:</strong>"
+msgstr "Fecha de orden:"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Salesperson:</strong>"
+msgstr "Vendedor:"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Shipping Address:</strong>"
+msgstr "Dirección de envío:"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Signature</strong>"
+msgstr "Firma"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Subtotal</strong>"
+msgstr "Subtotal"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Total</strong>"
+msgstr "Total"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "<strong>Your Reference:</strong>"
+msgstr "Tu referencia:"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Amount"
+msgstr "Cantidad"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Description"
+msgstr "Descripción"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Invoicing Address:"
+msgstr "Dirección de facturación:"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Invoicing and Shipping Address:"
+msgstr "Dirección de facturación y envío:"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Order #"
+msgstr "Orden #"
+
+#. module: sale_order_starx
+#: model:ir.actions.report,name:sale_order_starx.report_sale_order_starx
+msgid "Presupuesto / Pedido Starx"
+msgstr "Presupuesto / Pedido Starx"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Quotation #"
+msgstr "Presupuesto #"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Taxes"
+msgstr "Impuestos"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Total Price"
+msgstr "Precio total"
+
+#. module: sale_order_starx
+#: model_terms:ir.ui.view,arch_db:sale_order_starx.report_sale_order_starx_document
+msgid "Unit Price"
+msgstr "Precio Unitario"
