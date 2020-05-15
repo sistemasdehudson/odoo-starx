@@ -24,27 +24,27 @@ msgstr ""
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "<strong>Order:</strong>"
-msgstr ""
+msgstr "Orden:"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "<strong>Product</strong>"
-msgstr ""
+msgstr "Producto"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "<strong>Quantity</strong>"
-msgstr ""
+msgstr "Cantidad"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "<strong>Shipping Date:</strong>"
-msgstr ""
+msgstr "Fecha de envío"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "Aclaración"
-msgstr ""
+msgstr "Aclaración"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
@@ -56,44 +56,44 @@ msgstr ""
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "Controló pedido"
-msgstr ""
+msgstr "Controló pedido"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "DNI"
-msgstr ""
+msgstr "DNI"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "Firma"
-msgstr ""
+msgstr "Firma"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "Lot/Serial Number"
-msgstr ""
+msgstr "Lote / Número de Serie"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "Preparó pedido"
-msgstr ""
+msgstr "Preparó pedido"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "Receptor"
-msgstr ""
+msgstr "Receptor"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "Transporte interno"
-msgstr ""
+msgstr "Transporte interno"
 
 #. module: stock_entregas_starx
 #: model:ir.actions.report,name:stock_entregas_starx.report_stock_entrega_starx
 msgid "Vale de entrega Starx"
-msgstr ""
+msgstr "Vale de entrega Starx"
 
 #. module: stock_entregas_starx
 #: model_terms:ir.ui.view,arch_db:stock_entregas_starx.report_stock_starx_document
 msgid "_________________________"
-msgstr ""
+msgstr "_________________________"
