@@ -93,8 +93,22 @@
                             All items couldn't be shipped, the remaining ones will be shipped as soon as they become available.
                         </t>
                     </p>
-
-                        <!-- START de tabla -->    
+                        
+                        <!-- START de tabla 1 -->    
+                        
+        <table class="table table-sm mt48" t-if="o.move_line_ids and o.state=='done'" name="stock_move_line_table">
+            <tr>
+                <td>Bultos</td>
+                <td>Seguro</td>
+            </tr>
+            <tr>
+              <td>_________________________</td>
+              <td>_________________________</td>
+            </tr>
+        </table>
+                  <!-- END de tabla 1 -->
+                
+                        <!-- START de tabla 2 -->    
         <table class="table table-sm mt48" t-if="o.move_line_ids and o.state=='done'" name="stock_move_line_table">
                 <tr>
                 <td></td>
@@ -127,7 +141,7 @@
               <td>_________________________</td>
         </tr>
         </table>
-                  <!-- END de tabla -->
+                  <!-- END de tabla 2 -->
                         
                         
                 </div>
