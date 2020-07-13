@@ -95,21 +95,21 @@
                     </p>
 
                         <!-- START de tabla -->    
-        <table>
+        <table class="table table-sm mt48" t-if="o.move_line_ids and o.state=='done'" name="stock_move_line_table">
                 <tr>
                 <td></td>
                 <td>Firma</td>
-                <td>Aclaración</td>
+                <td>AclaraciÃ³n</td>
                 <td>DNI</td>
             </tr>
             <tr>
-              <td>Preparó pedido</td>
+              <td>PreparÃ³ pedido</td>
               <td>_________________________</td>
               <td>_________________________</td>
               <td>_________________________</td>
           </tr>
           <tr>
-              <td>Controló pedido</td>
+              <td>ControlÃ³ pedido</td>
               <td>_________________________</td>
               <td>_________________________</td>
               <td>_________________________</td>
@@ -144,7 +144,7 @@
    </template>
                
         
-        <!-- Se define BOTÓN -->
+        <!-- Se define BOTÃ“N -->
             <report id="report_stock_entrega_starx"
             string="Vale de entrega Starx"
             model="stock.picking"
