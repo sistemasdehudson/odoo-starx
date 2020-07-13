@@ -130,6 +130,19 @@
                   <!-- END de tabla -->
                       
                         <p>prueba</p>
+                        <tr>
+                <td></td>
+                <td>Firma</td>
+                <td>AclaraciÃ³n</td>
+                <td>DNI</td>
+            </tr>
+            <tr>
+              <td>PreparÃ³ pedido</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+              <td>_________________________</td>
+          </tr>
+             
                         
                 </div>
             </t>
