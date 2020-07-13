@@ -95,7 +95,7 @@
                     </p>
 
                         <!-- START de tabla -->    
-        <table class="table table-sm mt48" t-if="o.move_line_ids and o.state=='done'" name="stock_move_line_table">
+       <!-- <table class="table table-sm mt48" t-if="o.move_line_ids and o.state=='done'" name="stock_move_line_table"> -->
                 <tr>
                 <td></td>
                 <td>Firma</td>
@@ -126,23 +126,10 @@
               <td>_________________________</td>
               <td>_________________________</td>
         </tr>
-        </table>
+        <!--</table> -->
                   <!-- END de tabla -->
                       
                         <p>prueba</p>
-                        <tr>
-                <td></td>
-                <td>Firma</td>
-                <td>AclaraciÃ³n</td>
-                <td>DNI</td>
-            </tr>
-            <tr>
-              <td>PreparÃ³ pedido</td>
-              <td>_________________________</td>
-              <td>_________________________</td>
-              <td>_________________________</td>
-          </tr>
-             
                         
                 </div>
             </t>
